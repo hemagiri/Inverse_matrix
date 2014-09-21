@@ -1,0 +1,7 @@
+# create the matrix during the call of makeCacheMatrix()
+
+a <- makeCacheMatrix( matrix(c(1:4), nrow = 2, ncol = 2) );
+
+# Gives the CacheInverse value
+
+cacheSolve(a)
